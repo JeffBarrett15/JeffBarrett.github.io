@@ -1,0 +1,24 @@
+---
+output:
+  html_document:
+    css: "www/css/modest.css"
+---
+
+<br>
+
+
+<img src="www/images/FB_profile.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+#### Biography
+Dr. Jeff Barrett is Senior Advisor at the Critical Path Institute serving as a critical liaison between C-Path and the pharmaceutical industry, foundations, and other key stakeholders, and help grow C-Path’s portfolio in drug development solutions, with a focus, but not limited to model-informed drug development (MIDD). Jeff was the former Head of Quantitative Sciences at the Bill & Melinda Gates Medical Research Institute ([MRI](https://www.gatesmri.org/)). In this role he was responsible for implementing model-based drug development and employing PK/PD modeling, statistics, and clinical trial simulations to advance the discovery and development of new medicines and vaccines to treat malaria, tuberculosis (TB) and enteric diarrheal disease (EDD).  In this role, he engaged and led the Global Health ecosystem in the promotion of Open Science policies to create a collaborative environment for data and model sharing. Prior to MRI, he was Vice President, Global Head of Translational Informatics at Sanofi Pharmaceuticals.  He led various aspects of model-based decision-making spanning from drug discovery through commercialization and provided leadership for Sanofi’s cloud-based, high-performance computing and “big data” initiatives. Prior to Sanofi, Jeff spent 10+ years at the University of Pennsylvania where he was Professor, Pediatrics and Director, Laboratory for Applied PK/PD at the Children’s Hospital of Pennsylvania. Jeff received his B.S. in Chemical Engineering from Drexel University and Ph.D. in Pharmacokinetics from University of Michigan. He has co-authored over 170 manuscripts and has given over 140 invited lectures on PK/PD, clinical pharmacology and pharmacometrics. He is a fellow of ACCP and AAPS and the recipient of numerous honors including ACCP awards for Young Investigator (2002) and Mentorship in Clinical Pharmacology (2007) and the AAPS Award in Clinical Pharmacology and Translational Research (2011). Dr. Barrett was awarded for Exceptional Innovation and Advancing the Discipline of Pharmacometrics at the International Society for Pharmacometrics (2013) and elected ISOP Fellow (2017). He served on the Editorial Boards of the Journal of Pharmacokinetics and Pharmacodynamics and the ASCPT Pharmacometrics & Systems Pharmacology Journal and is currently the co-Specialty Chief Editor of Frontiers in Obstetric and Pediatric Pharmacology Journal. He is currently an active member of the Child Health and Human Development Pediatrics Subcommittee and is a study section reviewer for this committee.  He was a past acting chair of the FDA Advisory Committee for Pharmaceutical Science and Clinical Pharmacology and was a voting member of the committee for 8 years.
+
+
+**Specialties:** Clinical Trial Design, Drug Development and Registration, Drug Candidate Selection, Pediatric Drug Development, Trial Simulation, Translational Research, Artificial Intelligence / machine learning, big data analytics 
+
+Full CV is available [here](files/Resume_new.pdf).
+
+<hr>
+
+#### Some Hobbies
+ - Squash & weight lifting
+ 

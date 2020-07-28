@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>experience.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="www/css/air.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Jeff Barrett</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="research.html">Manuscripts &amp; Publications</a>
+</li>
+<li>
+  <a href="experience.html">Experience</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/JeffBarrett15">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Jeffrey_Barrett">
+    <span class="fa fa-researchgate fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/jeff-barrett-ba30527/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="professional-experience" class="section level2">
+<h2>Professional Experience</h2>
+<div id="senior-advisor-quantitative-medicine" class="section level3">
+<h3>Senior Advisor, Quantitative Medicine</h3>
+<div id="critical-path-institute-c-path" class="section level4">
+<h4>Critical Path Institute (C-Path)</h4>
+<div id="apr-2020-present-north-wales-pennsylvania-united-states" class="section level6">
+<h6>Apr 2020 – Present • North Wales, Pennsylvania, United States</h6>
+<ul>
+<li>Serve as critical liaison between C-Path and the pharmaceutical industry, foundations, and other key stakeholders, and help grow C-Path’s portfolio in drug development solutions, with a focus, but not limited to MIDD.</li>
+<li>Member of the executive leadership team with specific duties to:
+<ul>
+<li>Advise on the development of data and analytics platforms</li>
+<li>Lead the interactions with the academic partner for the FDA MIDD training course</li>
+<li>Advise the QuantMed program, leading the creation of a monetized training program for industry scientists on the quantitative tools C-Path develops</li>
+<li>Connect with organizations for collaboration and business opportunities.</li>
+<li>Define a strategy for business development for C-Path, focusing on (but not limited to), the generation of solutions for medical product development.</li>
+<li>Leverage C-Path standing within the pharmaceutical industry and FDA community, to establish targeted monetized MIDD training opportunities for industry scientists on the use of MIDD solutions developed by C-Path, as well as other relevant MIDD areas.</li>
+<li>Serve as an expert internal trainer for MIDD approaches, to help QuantMed Program scientists expand their skillsets in relevant quantitative methods.</li>
+<li>Serve as an expert in supporting the development of FDA’s MIDD training course, leading discussions with academic partners, and supporting the oversight and supervision of the project.</li>
+<li>Support the hands-on development of MIDD solutions, as relevant, across QuantMed programmatic activities.</li>
+<li>Support the Chief Science Officer and the Chief Technology Officer in the design of data and analytics platforms.</li>
+<li>Support the CEO and CSO in defining a strategy for the development of MIDD solutions for pediatric populations, in partnership with the CSO and the Scientific Director of Pharmacometrics.</li>
+</ul></li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+<div id="head-quantitative-sciences" class="section level3">
+<h3>Head Quantitative Sciences</h3>
+<div id="bill-melinda-gates-medical-research-institute" class="section level4">
+<h4>Bill &amp; Melinda Gates Medical Research Institute</h4>
+<div id="mar-2018-apr-2020-consultant-apr-2020---present-cambridge-ma-united-states" class="section level6">
+<h6>Mar 2018 – Apr 2020; Consultant Apr 2020 - Present • Cambridge, MA, United States</h6>
+<ul>
+<li>Accountable for leading The Institute in drug and vaccine development through the implementation of model-based drug development and employing PK/PD modeling, statistics, and clinical trial simulations. The role also provides support for other Institute efforts requiring development/quantitative support including vector control, diagnostics, and product development.</li>
+<li>Participates in the decision making and overall operations of the Institute and helps to build the new organization including modeling and driving the desired culture, hiring individuals with the talent, drive, and skills to achieve the Institute mission, and providing input on systems and the overall operating model.</li>
+<li>Building and managing a team that is responsible for establishing the modeling, biostatistics, bioinformatics, and DMPK function for the Institute.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+<div id="vice-president-translational-informatics" class="section level3">
+<h3>Vice President, Translational Informatics</h3>
+<div id="sanofi" class="section level4">
+<h4>Sanofi</h4>
+<div id="mar-2016-mar-2018-bridgewater-nj-united-states" class="section level6">
+<h6>Mar 2016 – Mar 2018 • Bridgewater, NJ, United States</h6>
+<ul>
+<li>Translational Informatics (TI) comprises Quantitative Systems Pharmacology, Bioinformatics &amp; Data Integration, Drug-disease modeling and Clinical Trial Simulation groups within Sanofi. The global group includes 34 quantitative scientists that participate in various aspects of model-based decision making spanning from drug discovery through commercialization. The group is positioned to provide strategic guidance to project teams and various decision making bodies as well as senior management.</li>
+<li>Leadership for R&amp;D’s cloud-based, high-performance computing and several big data initiatives is also provided in collaboration with IS and IT collaborators and external technology partners.</li>
+<li>The Global Head of Pediatric Clinical Pharmacology role provides support to all pediatric clinical development plans and regulatory filing strategy. The co-leadership of the Sanofi Pediatric Network advises project teams on design, conduct and analysis. PhRMA topic leader for ICH E11A working group on pediatric extrapolation of efficacy.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+<div id="vice-president-interdisciplinary-pharmacometrics-program" class="section level3">
+<h3>Vice President, Interdisciplinary Pharmacometrics Program</h3>
+<div id="sanofi-1" class="section level4">
+<h4>Sanofi</h4>
+<div id="nov-2013-mar-2018-bridgewater-nj-united-states" class="section level6">
+<h6>Nov 2013 – Mar 2018 • Bridgewater, NJ, United States</h6>
+<ul>
+<li>Leader of modeling and simulation efforts across the Scientific Core Platforms – developing, testing, and exploiting quantitative relationships to facilitate critical decisions that span the drug discovery and development process. The IPP ensures that modeling aspects are covered in an integrated way across the platforms, bringing together the multiple disciplines, and that resources are applied with priority to the most important questions and projects. I also serve as the Global Head of Pediatric Clinical Pharmacology and lead Sanofi’s Pediatric Network which advises project teams.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+<div id="professor-pediatrics-and-pharmacology" class="section level3">
+<h3>Professor, Pediatrics and Pharmacology</h3>
+<div id="the-childrens-hospital-of-philadelphia" class="section level4">
+<h4>The Children’s Hospital of Philadelphia</h4>
+<div id="may-2003-nov-2013-philadelphia-pa-united-states" class="section level6">
+<h6>May 2003 – Nov 2013 • Philadelphia, PA, United States</h6>
+<ul>
+<li>Principal Investigator for the CHOP Pediatric Pharmacology Research Unit (PPRU) and the Director of the Penn/CHOP Kinetic Modeling and Simulation (<a href="https://www.med.upenn.edu/kmas/">KMAS</a>) core of the CTSA. Research is focused on the investigation of sources of variation in pediatric pharmacokinetics. Applied clinical pharmacologic investigation coupled with modeling and simulation strategies are pursued with the intention of developing rational dosing guidance in various pediatric populations for both marketed and exploratory compounds. Clinical trial simulation is utilized prospectively to explore design dependencies and parameter sensitivities. The Laboratory for Applied PK/PD is focused on the development of novel pharmacometric approaches, biomarker development and disease progression modeling.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+<div id="global-head-biopharmaceutics" class="section level3">
+<h3>Global Head, Biopharmaceutics</h3>
+<div id="aventis-pharmaceuticals" class="section level4">
+<h4>Aventis Pharmaceuticals</h4>
+<div id="apr-2001-apr-2003-bridgewater-nj-united-states" class="section level6">
+<h6>Apr 2001 – Apr 2003 • Bridgewater, NJ, United States</h6>
+<ul>
+<li>Managed 13 scientists worldwide to support late stage development (Phase IIb through post marketing) with an annual budget of $25 million Euro. Responsibilities included the conduct and regulatory submission preparation of definitive clinical bioavailability and bioequivalence and related manufacturing specification studies, formulation development and screening trials, population pharmacokinetics, late stage drug interaction and special population studies, and mechanistic PK characterization.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+<div id="director-clinical-pharmacokinetics" class="section level3">
+<h3>Director, Clinical Pharmacokinetics</h3>
+<div id="dupont-pharmaceuticals" class="section level4">
+<h4>DuPont Pharmaceuticals</h4>
+<div id="section" class="section level6">
+<h6>1996 – 2000</h6>
+<ul>
+<li>Directed the Clinical PK effort in support of the cardiovascular and CNS franchises as well as the IT support of the DM&amp;PK department. Conduct preclinical and clinical aspects of drug development including bioanalytical, toxicokinetic, pharmacokinetic, and pharmacodynamic support. Functional responsibilities include protocol design, toxicokinetic, pharmacokinetic, pharmacodynamic analyses and reporting for pre-NDA and NDA development stages, FDA liaison, and bioanalytical site selection. Supervisory responsibilities include the management of 3 PhD scientists, 1 web-programmer, 1 data warehouse administrator, and 2 junior staff scientists.</li>
+<li>Co-authored population pharmacokinetic analysis reports for Sustiva and innohep NDAs. Co-authored Biopharmaceutics Sections for Morphine Sulfate CR ANDA and innohep NDA. Initiated data warehousing efforts for department including intranet-based access and exploitation tools. Developed novel biomarkers for Factor Xa inhibitor program. Company representative for co-development of SAS PH-Kinetics non-compartmental pharmacokinetic analysis application. Departmental representative for R&amp;D Bioinformatics initiative.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+<div id="director-clinical-pharmacokinetics-computer-resources" class="section level3">
+<h3>Director, Clinical Pharmacokinetics &amp; Computer Resources</h3>
+<div id="somerset-pharmaceuticals" class="section level4">
+<h4>Somerset Pharmaceuticals</h4>
+<div id="section-1" class="section level6">
+<h6>1994 – 1996</h6>
+<ul>
+<li>Conduct preclinical and clinical aspects of drug development, contract all bioanalytical and clinical services, supervise database management of post marketing and ongoing clinical drug safety surveillance programs, develop flexible data entry system for monitoring of clinical laboratory and adverse event data from ongoing development programs, and provide hardware and software support for the Somerset PC network. Functional responsibilities include protocol design, study monitoring, toxicokinetic, pharmacokinetic, pharmacodynamic and statistical analyses and reporting, FDA liaison, clinical and bioanalytical site selection, the management of all R&amp;D computer resources, and supervision of six people (pharmacokineticist, statistician, programmers, CRAs).</li>
+<li>Completed numerous Phase-I studies in healthy male volunteers, healthy elderly men and women, post-menopausal women, and SDAT patients in support of the selegiline transdermal system and ipriflavone development programs and product line extensions for Eldepryl. Authored Biopharmaceutics Section for Eldepryl Capsule ANDA. Completed acute, subacute and chronic toxicology studies, in vitro topical metabolism, and pharmacology studies in support of the selegiline transdermal system and ipriflavone development programs.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
