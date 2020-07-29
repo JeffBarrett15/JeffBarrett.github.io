@@ -11,22 +11,33 @@ GG_Link <- "https://www.youtube.com/watch?v=xNOGZ0ZzY7Q&t=1"
 ```
 ## Squash Time
 
-Im a HUUUUUGE Squash player.
-
-Catch me on the court
-
+![](www/images/GRC_Logo_OG.jpg)
 
 <img src="www/images/Squash_profile.png" style="width:35%; border:10px solid; margin-right: 20px" align="left">
-<img src="www/images/GRC_Logo_OG.jpg" style="width:55%; border:10px solid; margin-right: 20px" align="right">
+
+Im a HUUUUUGE Squash player.
+
+Catch me on the [Court](https://www.facebook.com/grcsquash).
 
 
-<img src="www/images/Squash_group.jpg" style="width:35%; border:10px solid; margin-right: 20px" align="left">
+I make an effort to play squash in every country I visit, dominating everwhere I go. I always have to snag a picture with the victims:
+
+<center>
+[](www/images/Squash_group.jpg)
+</center>
+
+
 
 
 <img src="www/images/GRC_Logo.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
 
 
 
+```{r echo=FALSE, width="600"}
+fluidRow(column(12,align="center",embed_url(GG_Link)))
+```
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=xNOGZ0ZzY7Q&t=1" frameborder="0" allowfullscreen></iframe>
+<br>
+
+![](www/images/GRC_Logo.jpg)
 
