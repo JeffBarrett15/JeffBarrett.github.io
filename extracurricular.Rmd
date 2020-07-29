@@ -22,17 +22,11 @@ Catch me on the [Court](https://www.facebook.com/grcsquash).
 
 I make an effort to play squash in every country I visit, dominating everwhere I go. I always have to snag a picture with the victims:
 
-<center>
-[](www/images/Squash_group.jpg)
-</center>
+
+![](www/images/Squash_group.jpg)
 
 
-
-
-<img src="www/images/GRC_Logo.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
-
-
-
+Here I am cheering on my comrades:
 ```{r echo=FALSE, width="600"}
 fluidRow(column(12,align="center",embed_url(GG_Link)))
 ```
