@@ -4,6 +4,8 @@ output:
     css: "www/css/air.css"
 ---
 
+Short intro:
+
 Additional information may be found on [Research Gate](https://www.researchgate.net/profile/Jeffrey_Barrett).
 
 

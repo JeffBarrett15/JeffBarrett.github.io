@@ -1,10 +1,11 @@
 ---
-
+output:
+  html_document:
+    css: "www/css/air.css"
 ---
 
 <br>
-<link rel="stylesheet" href="www/css/styles.css" type="text/css">
 
 Email: 1371eagles@gmail.com
 
-You may also contact me through Linkedin or ResearchGate (links in top right).
+You can also contact me through Linkedin or ResearchGate (links in top right).

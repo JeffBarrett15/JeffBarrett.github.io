@@ -8,8 +8,7 @@ output:
 library(htmltools)
 library(vembedr)
 library(shiny)
-AD_Link <- "https://www.youtube.com/watch?v=Z9XZ7gUKEIQ"
-EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
+# You can include R code or R shiny apps (I think) here
 ```
 
 ## Professional Experience

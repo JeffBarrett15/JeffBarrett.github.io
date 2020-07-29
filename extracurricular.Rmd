@@ -1,0 +1,32 @@
+---
+output:
+  html_document:
+    css: "www/css/modest.css"
+---
+```{r setup, include=FALSE, echo=FALSE}
+library(htmltools)
+library(vembedr)
+library(shiny)
+GG_Link <- "https://www.youtube.com/watch?v=xNOGZ0ZzY7Q&t=1"
+```
+## Squash Time
+
+Im a HUUUUUGE Squash player.
+
+Catch me on the court
+
+
+<img src="www/images/Squash_profile.png" style="width:35%; border:10px solid; margin-right: 20px" align="left">
+<img src="www/images/GRC_Logo_OG.jpg" style="width:55%; border:10px solid; margin-right: 20px" align="right">
+
+
+<img src="www/images/Squash_group.jpg" style="width:35%; border:10px solid; margin-right: 20px" align="left">
+
+
+<img src="www/images/GRC_Logo.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=xNOGZ0ZzY7Q&t=1" frameborder="0" allowfullscreen></iframe>
+
