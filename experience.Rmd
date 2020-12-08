@@ -1,7 +1,7 @@
 ---
 output:
   html_document:
-    css: "www/css/air.css"
+    css: "www/css/modest.css"
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
