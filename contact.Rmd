@@ -1,11 +1,11 @@
 ---
 output:
   html_document:
-    css: "www/css/air.css"
+    css: "www/css/modest.css"
 ---
 
 <br>
 
 Email: 1371eagles@gmail.com
 
-You can also contact me through Linkedin or ResearchGate (links in top right).
+You can also contact me through [Linkedin](https://www.linkedin.com/in/jeff-barrett-ba30527/) or [ResearchGate](https://www.researchgate.net/profile/Jeffrey_Barrett).

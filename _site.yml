@@ -14,11 +14,9 @@ navbar:
       href: contact.html
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/jeff-barrett-ba30527/
-    - icon: fa-researchgate fa-lg
-      href: https://www.researchgate.net/profile/Jeffrey_Barrett
     - icon: fa-github fa-lg
       href: https://github.com/JeffBarrett15
 output:
   html_document:
     theme: paper
-    css: 'www/css/air.css'
+    css: 'www/css/modest.css'
